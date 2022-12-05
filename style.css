@@ -164,4 +164,46 @@ p {
     text-shadow: 5px 9px 24px #040301;
     line-height: 1.5;
 }
+
 /* Intro end */
+
+/* Info start */
+
+.info {
+
+}
+
+.info__wrapper {
+    display: flex;
+    margin: 50px;
+}
+
+.info__block {
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.info__item {
+    /* background-color: #f5be15db; */
+    background-color: #ffc00075;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 40px; 
+}
+
+.info__img {
+    margin-bottom: 20px;
+    
+} 
+
+.info__title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #3D251C;
+}
+
+.info__text {
+    font-size: 18px;
+    color: #3D251C;
+}
+
+/* Info And */
