@@ -358,3 +358,27 @@ p {
 }
 
 /* about end */
+
+
+/* process start */
+
+.down {
+    height: 300px;    
+}
+
+.process_title {
+    font-size: 148px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3D251C;
+    text-align: center;
+
+}
+
+.process_subtitle {
+    font-size: 40px;
+    font-weight: 600;
+    color:#3D251C;
+    text-align: center;
+}
+/* process end */
