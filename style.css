@@ -29,6 +29,7 @@ p {
 .btn {
     min-width: 200px;
     height: 50px;
+    text-transform: uppercase;
     padding: 0px 15px;
     color:antiquewhite;
     text-decoration: none;
@@ -382,3 +383,157 @@ p {
     text-align: center;
 }
 /* process end */
+
+
+/* contacts start */
+
+.contacts {
+    padding: 100px 0;
+    background-color:#3d251cdb;
+    }
+
+.contacts .block__title {
+    margin-bottom: 40px;
+}
+
+.text-color {
+    color: white;
+}
+
+.contacts__form {
+    max-width: 440px;
+}
+
+.form__row {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.form__group {
+    flex: 1;
+    padding: 0 20px;
+    position: relative;
+    margin-bottom: 30px;
+    }
+
+.input {
+    width: 100%;
+    padding: 7px 0;
+    color: white;
+    font-size: 15px;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.input:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.label {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    transition: all .2s ease ;
+}
+
+.textarea {
+    min-height: 130px;
+    width: 100%;
+    padding: 7px 0;
+    resize: vertical;
+    color: white;
+    font-size: 15px;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.btn1 {
+    text-transform: uppercase;
+    min-width: 200px;
+    height: 50px;
+    padding: 0px 15px;
+    color:#3d251cdb;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s ease;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+
+}
+
+.btn1:hover {
+    background-color:#a3877d;
+}
+
+/* contacts end */
+
+
+/* footer start */
+
+.footer {
+
+}
+
+.footer__wrapper {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: #3D251C;
+    font-size: 18;
+    font-weight: 500;
+}
+
+.copyright:hover {
+    text-decoration: none;
+}
+
+.footer__soc {
+    display: flex;
+}
+
+.footer__soc-link {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer__soc-link:last-child {
+    margin-right: 0;
+}
+
+
+
+/* footer end */
