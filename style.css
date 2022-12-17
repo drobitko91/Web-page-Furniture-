@@ -116,6 +116,10 @@ p {
     justify-content: flex-end;
 }
 
+.sign__in {
+    margin-right: 9px;
+}
+
 .header__lng-link {
     color: #5e4136;
     text-decoration: none;

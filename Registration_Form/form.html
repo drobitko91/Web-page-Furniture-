@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form_styles.css">
+    <link rel="icon" href="../Pictures/sign_in.png">
+    <title>Sing Up</title>
+</head>
+<body>
+    <header>
+        <div class="color">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__block">
+                        <a href="../index.html" class="header__logo">
+                            <img src="../Pictures/Furniture_file.png" alt="logo" width="70" height="70">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <h1>Register Now</h1>
+                        <p>Welcom to the best online furniture store</p>
+                    </div>
+                    <div class="header__block">
+                        <div class="header__lng">
+                            <a href="#" class="header__lng-link active">EN</a>
+                            <a href="#" class="header__lng-link">UA</a>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="form">
+        <div class="container">        
+            <div class="wrapper">
+                <div class="title">
+                    <h2>Sign Up</h2>
+                    <p>Please fill in this form to create an account.</p>
+                </div>
+
+                <div class="form__block">
+                    <form class="form__info" action="">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="fname"> First Name
+                                    <input class="input" type="text" name="fname" placeholder="John">
+                                </label>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="lname"> Last Name
+                                    <input class="input" type="text" name="lname" placeholder="Smith">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="email">Email
+                                    <input class="input" type="text" name="email" placeholder="smith@gmail.com" required>
+                                </label>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="phone">Phone number
+                                    <input class="input" type="tel" name="phone" placeholder="077 777 77 77">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="psw">Password
+                                    <input class="input" type="password" name="psw" placeholder="12345678" required>
+                                </label>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="psw">Confirm Password
+                                    <input class="input" type="password" name="psw" placeholder="12345678" required>
+                                </label>
+                            </div>
+                        </div>                    
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="birthday">Date of Birth
+                                    <input class="input" type="date" name="birthday">
+                                </label>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="age">Age
+                                    <input class="input" type="text" name="age">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__row gender">
+                            <div class="form__group input__collection">
+                                <p>Gender:</p>
+                                
+                                <label for="gender">Male
+                                    <input  type="radio" name="gender" value="Male">
+                                </label>
+
+                                <label for="gender">Female
+                                    <input  type="radio" name="gender" value="Female">
+                                </label>
+
+                                <label for="gender">Prefer not to say
+                                    <input  type="radio" name="gender" value="Prefer not to say">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <!-- <p>City:</p> -->
+                                <label for="">City:
+                                <input class="input" list="city" name="city" type="text">
+                                </label>
+                                <datalist id="city">
+                                    <option value="Poltava">
+                                    <option value="Kyiv">
+                                    <option value="Kharkiv">
+                                    <option value="Odesa">
+                                    <option value="Dnipro">
+                                    <option value="Lviv">
+                                    <option value="Mykolaiv">
+                                    <option value="Ivano-Frankivsk">
+                                </datalist>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="post__office">Adress of Post Oficce
+                                    <input class="input" type="text" placeholder="Green st.">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <p>Tell us about yourself:</p>
+                                <textarea class="textarea" name="" placeholder=""></textarea>
+                                <label for="" class="label"></label>
+                            </div>
+                        </div>
+
+                        
+                        <div class="form__row">
+                            <div class="form__group input__collection">
+                                <p>What collection do you prefer?</p>
+                                <label for="type1">Nomad Collection
+                                    <input class="input" type="checkbox" name="type1">
+                                </label>
+
+                                <label for="type2">Field Collection
+                                    <input class="input" type="checkbox" name="type2">
+                                </label>
+
+                                <label for="type3">Union Collection
+                                    <input class="input" type="checkbox" name="type3">
+                                </label>
+
+                                <label for="type4">Other
+                                    <input class="input" type="checkbox" name="type4">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form__row">
+                            <div class="form__group input__collection">
+                                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                                <label for="agree">I agree
+                                    <input class="input" type="checkbox" name="agree" required>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div >                    
+                            <button class="btn" type="submit">Sign up</button>
+                            <input  class="btn" value="Reset" type="reset">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    
+</body>
+</html>
